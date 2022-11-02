@@ -1,15 +1,15 @@
 package stepDefinitions;
 
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import cucumber.api.DataTable;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -17,7 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class FacebookSteps {
 	WebDriver driver;
 
-	@Given("^Open facebook application$")
+	@Before("@parameter")
 	public void openFacebookApplication() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
@@ -73,19 +73,28 @@ public class FacebookSteps {
 	}
 
 	@When("^Input to email and password$")
-	public void inputToEmailAndPassword(DataTable arg1) {
-		// Write code here that turns the phrase above into concrete actions
-		// For automatic transformation, change DataTable to one of
-		// List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-		// E,K,V must be a scalar (String, Integer, Date, enum etc)
+	public void inputToEmailAndPassword(DataTable table) {
+		// List<Map<String, String>> customers = table.asMaps(String.class, String.class);
+		// driver.findElement(By.id("email")).clear();
+		// // get(0) -> dòng để lấy dữ liệu
+		// // get("Email") -> Lấy theo tên cột
+		// driver.findElement(By.id("email")).sendKeys(customers.get(0).get("Email"));
+		//
+		// driver.findElement(By.id("pass")).clear();
+		// driver.findElement(By.id("pass")).sendKeys(customers.get(0).get("password"));
+
+		for (Map<String, String> customer : table.asMaps(String.class, String.class)) {
+			driver.findElement(By.id("email")).clear();
+			driver.findElement(By.id("email")).sendKeys(customer.get("Email"));
+
+			driver.findElement(By.id("pass")).clear();
+			driver.findElement(By.id("pass")).sendKeys(customer.get("password"));
+		}
 	}
 
 	@Then("^Verify submitted infor displayed$")
-	public void verifySubmittedInforDisplayed(DataTable arg1) {
-		// Write code here that turns the phrase above into concrete actions
-		// For automatic transformation, change DataTable to one of
-		// List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-		// E,K,V must be a scalar (String, Integer, Date, enum etc)
+	public void verifySubmittedInforDisplayed(DataTable table) {
+
 	}
 
 	@When("^Click to Submit button$")
@@ -94,17 +103,7 @@ public class FacebookSteps {
 
 	}
 
-	@Then("^Verify email textbox is displayed$")
-	public void verifyEmailTextboxIsDisplayed() {
-		Assert.assertTrue(driver.findElement(By.id("email")).isDisplayed());
-	}
-
-	@And("^Verify password textbox is displayed$")
-	public void verifyPasswordTextboxIsDisplayed() {
-		Assert.assertTrue(driver.findElement(By.id("pass")).isDisplayed());
-	}
-
-	@And("^Close application$")
+	@After("@parameter")
 	public void closeApplication() {
 		driver.quit();
 	}

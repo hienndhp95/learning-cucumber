@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		glue = "stepDefinitions",
 		plugin = {"pretty","html:target/site/cucumber-report-default","json:target/site/cucumber.json"},
 		snippets = SnippetType.CAMELCASE,
-		tags = {"@datatable_step"})
+		tags = {"@parameter"})
 public class TestRunner {
 
 }

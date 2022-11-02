@@ -1,0 +1,249 @@
+[2022-05-11 10:00:04,589] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 10:00:05,244] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 10:00:05,340] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 10:00:05,436] Register - Step 04: Enter to Email Address textbox with value is'abcd4575@gmail.com'
+[2022-05-11 10:00:05,532] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 10:00:05,629] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 10:00:05,718] Register - Step 07: Click to Register button
+[2022-05-11 10:00:06,613] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 10:00:06,654] Register - Step 09: Click to Logout link
+[2022-05-11 10:00:07,391] Login - Step 01: Navigate to 'Login' page
+[2022-05-11 10:00:07,999] Login - Step 02: Enter to Email Address textbox with value is'abcd4575@gmail.com'
+[2022-05-11 10:00:08,092] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-05-11 10:00:08,177] Login - Step 04: Click to Login button
+[2022-05-11 10:00:08,947] Login - Step 05: Verify My Account link is displayed
+[2022-05-11 10:00:08,986] Login - Step 06: Navigate to 'My Account' page
+[2022-05-11 10:00:09,584] Login - Step 05: Verify 'Customer Info' page is displayed
+[2022-05-11 10:13:14,029] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 10:13:14,570] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 10:13:14,666] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 10:13:14,761] Register - Step 04: Enter to Email Address textbox with value is'abcd9250@gmail.com'
+[2022-05-11 10:13:14,858] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 10:13:14,951] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 10:13:15,040] Register - Step 07: Click to Register button
+[2022-05-11 10:13:15,922] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 10:13:15,964]  -------------------------- PASSED -------------------------- 
+[2022-05-11 10:13:15,964] Register - Step 09: Click to Logout link
+[2022-05-11 10:13:16,632] Login - Step 01: Navigate to 'Login' page
+[2022-05-11 10:13:17,150] Login - Step 02: Enter to Email Address textbox with value is'abcd9250@gmail.com'
+[2022-05-11 10:13:17,242] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-05-11 10:13:17,331] Login - Step 04: Click to Login button
+[2022-05-11 10:13:18,024] Login - Step 05: Verify My Account link is displayed
+[2022-05-11 10:13:18,062]  -------------------------- PASSED -------------------------- 
+[2022-05-11 10:13:18,062] Login - Step 06: Navigate to 'My Account' page
+[2022-05-11 10:13:18,606] Login - Step 05: Verify 'Customer Info' page is displayed
+[2022-05-11 10:13:18,644]  -------------------------- PASSED -------------------------- 
+[2022-05-11 10:25:22,026] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 10:25:22,584] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 10:25:22,682] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 10:25:22,779] Register - Step 04: Enter to Email Address textbox with value is'abcd4883@gmail.com'
+[2022-05-11 10:25:22,875] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 10:25:22,970] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 10:25:23,061] Register - Step 07: Click to Register button
+[2022-05-11 10:25:23,866] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 10:25:23,907]  -------------------------- PASSED -------------------------- 
+[2022-05-11 10:25:23,907] Register - Step 09: Click to Logout link
+[2022-05-11 10:25:24,562] Login - Step 01: Navigate to 'Login' page
+[2022-05-11 10:25:25,058] Login - Step 02: Enter to Email Address textbox with value is'abcd4883@gmail.com'
+[2022-05-11 10:25:25,145] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-05-11 10:25:25,230] Login - Step 04: Click to Login button
+[2022-05-11 10:25:25,926] Login - Step 05: Verify My Account link is displayed
+[2022-05-11 10:25:25,964]  -------------------------- PASSED -------------------------- 
+[2022-05-11 10:25:25,964] Login - Step 06: Navigate to 'My Account' page
+[2022-05-11 10:25:26,480] Login - Step 05: Verify 'Customer Info' page is displayed
+[2022-05-11 10:25:26,521]  -------------------------- PASSED -------------------------- 
+[2022-05-11 10:25:51,142] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 10:25:51,993] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 10:25:52,083] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 10:25:52,171] Register - Step 04: Enter to Email Address textbox with value is'abcd9918@gmail.com'
+[2022-05-11 10:25:52,265] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 10:25:52,352] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 10:25:52,441] Register - Step 07: Click to Register button
+[2022-05-11 10:25:53,354] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 10:25:53,390]  -------------------------- PASSED -------------------------- 
+[2022-05-11 10:25:53,390] Register - Step 09: Click to Logout link
+[2022-05-11 10:25:54,146] Login - Step 01: Navigate to 'Login' page
+[2022-05-11 10:25:54,716] Login - Step 02: Enter to Email Address textbox with value is'abcd9918@gmail.com'
+[2022-05-11 10:25:54,805] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-05-11 10:25:54,890] Login - Step 04: Click to Login button
+[2022-05-11 10:25:55,656] Login - Step 05: Verify My Account link is displayed
+[2022-05-11 10:25:55,693]  -------------------------- PASSED -------------------------- 
+[2022-05-11 10:25:55,693] Login - Step 06: Navigate to 'My Account' page
+[2022-05-11 10:25:56,262] Login - Step 05: Verify 'Customer Info' page is displayed
+[2022-05-11 10:25:56,300]  -------------------------- PASSED -------------------------- 
+[2022-05-11 10:29:08,408] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 10:29:08,950] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 10:29:09,052] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 10:29:09,147] Register - Step 04: Enter to Email Address textbox with value is'abcd1498@gmail.com'
+[2022-05-11 10:29:09,242] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 10:29:09,336] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 10:29:09,427] Register - Step 07: Click to Register button
+[2022-05-11 10:29:10,302] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 10:29:10,343]  -------------------------- PASSED -------------------------- 
+[2022-05-11 10:29:10,343] Register - Step 09: Click to Logout link
+[2022-05-11 10:29:11,035] Login - Step 01: Navigate to 'Login' page
+[2022-05-11 10:29:11,549] Login - Step 02: Enter to Email Address textbox with value is'abcd1498@gmail.com'
+[2022-05-11 10:29:11,637] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-05-11 10:29:11,722] Login - Step 04: Click to Login button
+[2022-05-11 10:29:12,419] Login - Step 05: Verify My Account link is displayed
+[2022-05-11 10:29:12,457]  -------------------------- FAILED -------------------------- 
+[2022-05-11 10:29:12,457] Login - Step 06: Navigate to 'My Account' page
+[2022-05-11 10:29:12,965] Login - Step 05: Verify 'Customer Info' page is displayed
+[2022-05-11 10:29:13,005]  -------------------------- FAILED -------------------------- 
+[2022-05-11 10:29:17,857] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 10:29:18,431] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 10:29:18,523] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 10:29:18,615] Register - Step 04: Enter to Email Address textbox with value is'abcd4973@gmail.com'
+[2022-05-11 10:29:18,711] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 10:29:18,799] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 10:29:18,888] Register - Step 07: Click to Register button
+[2022-05-11 10:29:19,748] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 10:29:19,786]  -------------------------- PASSED -------------------------- 
+[2022-05-11 10:29:19,786] Register - Step 09: Click to Logout link
+[2022-05-11 10:29:20,474] Login - Step 01: Navigate to 'Login' page
+[2022-05-11 10:29:20,974] Login - Step 02: Enter to Email Address textbox with value is'abcd4973@gmail.com'
+[2022-05-11 10:29:21,068] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-05-11 10:29:21,157] Login - Step 04: Click to Login button
+[2022-05-11 10:29:21,820] Login - Step 05: Verify My Account link is displayed
+[2022-05-11 10:29:21,906]  -------------------------- FAILED -------------------------- 
+[2022-05-11 10:29:21,907] Login - Step 06: Navigate to 'My Account' page
+[2022-05-11 10:29:22,442] Login - Step 05: Verify 'Customer Info' page is displayed
+[2022-05-11 10:29:22,483]  -------------------------- FAILED -------------------------- 
+[2022-05-11 11:32:22,959] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 11:32:23,647] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 11:32:23,745] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 11:32:23,845] Register - Step 04: Enter to Email Address textbox with value is'abcd9694@gmail.com'
+[2022-05-11 11:32:23,939] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 11:32:24,031] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 11:32:24,118] Register - Step 07: Click to Register button
+[2022-05-11 11:32:25,011] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 11:32:25,055]  -------------------------- PASSED -------------------------- 
+[2022-05-11 11:32:25,055] Register - Step 09: Click to Logout link
+[2022-05-11 11:32:25,787] Login - Step 01: Navigate to 'Login' page
+[2022-05-11 11:32:26,343] Login - Step 02: Enter to Email Address textbox with value is'abcd9694@gmail.com'
+[2022-05-11 11:32:26,431] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-05-11 11:32:26,518] Login - Step 04: Click to Login button
+[2022-05-11 11:32:27,279] Login - Step 05: Verify My Account link is displayed
+[2022-05-11 11:32:27,320]  -------------------------- FAILED -------------------------- 
+[2022-05-11 11:32:27,320] Login - Step 06: Navigate to 'My Account' page
+[2022-05-11 11:32:27,892] Login - Step 05: Verify 'Customer Info' page is displayed
+[2022-05-11 11:32:27,930]  -------------------------- FAILED -------------------------- 
+[2022-05-11 11:37:44,881] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 11:37:45,482] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 11:37:45,582] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 11:37:45,680] Register - Step 04: Enter to Email Address textbox with value is'abcd1356@gmail.com'
+[2022-05-11 11:37:45,780] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 11:37:45,876] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 11:37:45,969] Register - Step 07: Click to Register button
+[2022-05-11 11:37:46,859] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 11:37:46,902] Register - Step 09: Click to Logout link
+[2022-05-11 11:37:47,649] Login - Step 01: Navigate to 'Login' page
+[2022-05-11 11:37:48,199] Login - Step 02: Enter to Email Address textbox with value is'abcd1356@gmail.com'
+[2022-05-11 11:37:48,289] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-05-11 11:37:48,380] Login - Step 04: Click to Login button
+[2022-05-11 11:37:49,132] Login - Step 05: Verify My Account link is displayed
+[2022-05-11 11:45:32,807] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 11:45:33,334] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 11:45:33,432] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 11:45:33,529] Register - Step 04: Enter to Email Address textbox with value is'abcd1291@gmail.com'
+[2022-05-11 11:45:33,625] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 11:45:33,721] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 11:45:33,811] Register - Step 07: Click to Register button
+[2022-05-11 11:45:34,607] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 11:45:34,647] Register - Step 09: Click to Logout link
+[2022-05-11 11:45:35,319] Login - Step 01: Navigate to 'Login' page
+[2022-05-11 11:45:35,806] Login - Step 02: Enter to Email Address textbox with value is'abcd1291@gmail.com'
+[2022-05-11 11:45:35,894] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-05-11 11:45:35,981] Login - Step 04: Click to Login button
+[2022-05-11 11:45:36,721] Login - Step 05: Verify My Account link is displayed
+[2022-05-11 13:14:42,663] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 13:14:43,270] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 13:14:43,370] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 13:14:43,465] Register - Step 04: Enter to Email Address textbox with value is'abcd2234@gmail.com'
+[2022-05-11 13:14:43,563] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 13:14:43,654] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 13:14:43,743] Register - Step 07: Click to Register button
+[2022-05-11 13:14:44,684] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 13:14:44,728] Login - Step 01: Navigate to 'Login' page
+[2022-05-11 13:14:46,256] Login - Step 02: Enter to Email Address textbox with value is'abcd2234@gmail.com'
+[2022-05-11 13:14:46,346] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-05-11 13:14:46,433] Login - Step 04: Click to Login button
+[2022-05-11 13:14:47,253] Login - Step 05: Verify My Account link is displayed
+[2022-05-11 13:31:46,815] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 13:31:47,434] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 13:31:47,535] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 13:31:47,633] Register - Step 04: Enter to Email Address textbox with value is'abcd6977@gmail.com'
+[2022-05-11 13:31:47,730] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 13:31:47,822] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 13:31:47,912] Register - Step 07: Click to Register button
+[2022-05-11 13:31:48,844] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 13:47:53,902] Register - Step 01: Navigate to 'Register' page
+[2022-05-11 13:47:54,479] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-05-11 13:47:54,580] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-05-11 13:47:54,676] Register - Step 04: Enter to Email Address textbox with value is'abcd3118@gmail.com'
+[2022-05-11 13:47:54,778] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-05-11 13:47:54,878] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-05-11 13:47:54,972] Register - Step 07: Click to Register button
+[2022-05-11 13:47:55,804] Register - Step 08: Verify Register success message is displayed
+[2022-05-11 13:47:55,848] Login - Step 01: Navigate to 'Login' page
+[2022-05-11 13:47:57,098] Login - Step 02: Enter to Email Address textbox with value is'abcd3118@gmail.com'
+[2022-05-11 13:47:57,187] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-05-11 13:47:57,276] Login - Step 04: Click to Login button
+[2022-05-11 13:47:58,002] Login - Step 05: Verify My Account link is displayed
+[2022-06-16 09:08:37,431] Register - Step 01: Navigate to 'Register' page
+[2022-06-16 09:08:38,035] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-06-16 09:08:38,137] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-06-16 09:08:38,231] Register - Step 04: Enter to Email Address textbox with value is'abcd54661@gmail.com'
+[2022-06-16 09:08:38,328] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-06-16 09:08:38,419] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-06-16 09:08:38,509] Register - Step 07: Click to Register button
+[2022-06-16 09:08:39,392] Register - Step 08: Verify Register success message is displayed
+[2022-06-16 09:08:39,436]  -------------------------- PASSED -------------------------- 
+[2022-06-16 09:08:39,436] Register - Step 09: Click to Logout link
+[2022-06-16 09:08:40,268] Login - Step 01: Navigate to 'Login' page
+[2022-06-16 09:08:40,825] Login - Step 02: Enter to Email Address textbox with value is'abcd54661@gmail.com'
+[2022-06-16 09:08:40,915] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-06-16 09:08:41,007] Login - Step 04: Click to Login button
+[2022-06-16 09:08:41,727] Login - Step 05: Verify My Account link is displayed
+[2022-06-16 09:08:41,766]  -------------------------- PASSED -------------------------- 
+[2022-06-16 09:08:41,766] Login - Step 06: Navigate to 'My Account' page
+[2022-06-16 09:08:42,406] Login - Step 07: Verify 'Customer Info' page is displayed
+[2022-06-16 09:08:42,445]  -------------------------- PASSED -------------------------- 
+[2022-06-16 10:06:28,280] Register - Step 01: Navigate to 'Register' page
+[2022-06-16 10:06:28,912] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-06-16 10:06:29,069] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-06-16 10:06:29,842] Register - Step 04: Enter to Email Address textbox with value is'abcd66857@gmail.com'
+[2022-06-16 10:06:29,986] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-06-16 10:06:30,105] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-06-16 10:06:30,326] Register - Step 07: Click to Register button
+[2022-06-16 10:06:31,160] Register - Step 08: Verify Register success message is displayed
+[2022-06-16 10:06:31,227]  -------------------------- PASSED -------------------------- 
+[2022-06-16 10:06:31,227] Register - Step 09: Click to Logout link
+[2022-06-16 10:06:32,008] Login - Step 01: Navigate to 'Login' page
+[2022-06-16 10:06:32,558] Login - Step 02: Enter to Email Address textbox with value is'abcd66857@gmail.com'
+[2022-06-16 10:06:32,685] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-06-16 10:06:32,834] Login - Step 04: Click to Login button
+[2022-06-16 10:06:33,539] Login - Step 05: Verify My Account link is displayed
+[2022-06-16 10:06:33,598]  -------------------------- PASSED -------------------------- 
+[2022-06-16 10:06:33,598] Login - Step 06: Navigate to 'My Account' page
+[2022-06-16 10:06:34,184] Login - Step 07: Verify 'Customer Info' page is displayed
+[2022-06-16 10:06:34,253]  -------------------------- PASSED -------------------------- 
+[2022-06-16 10:07:56,479] Register - Step 01: Navigate to 'Register' page
+[2022-06-16 10:07:57,262] Register - Step 02: Enter to Firstname textbox with value is'Huynh'
+[2022-06-16 10:07:57,405] Register - Step 03: Enter to Lastname textbox with value is'Quang'
+[2022-06-16 10:07:57,527] Register - Step 04: Enter to Email Address textbox with value is'abcd11044@gmail.com'
+[2022-06-16 10:07:57,658] Register - Step 05: Enter to password textbox with value is'123456'
+[2022-06-16 10:07:57,773] Register - Step 06: Enter to Confirm Password textbox with value is'123456'
+[2022-06-16 10:07:57,897] Register - Step 07: Click to Register button
+[2022-06-16 10:07:58,778] Register - Step 08: Verify Register success message is displayed
+[2022-06-16 10:07:58,839]  -------------------------- PASSED -------------------------- 
+[2022-06-16 10:07:58,839] Register - Step 09: Click to Logout link
+[2022-06-16 10:07:59,711] Login - Step 01: Navigate to 'Login' page
+[2022-06-16 10:08:00,268] Login - Step 02: Enter to Email Address textbox with value is'abcd11044@gmail.com'
+[2022-06-16 10:08:00,395] Login - Step 03: Enter to password textbox with value is'123456'
+[2022-06-16 10:08:00,535] Login - Step 04: Click to Login button
+[2022-06-16 10:08:01,900] Login - Step 05: Verify My Account link is displayed
+[2022-06-16 10:08:01,963]  -------------------------- PASSED -------------------------- 
+[2022-06-16 10:08:01,963] Login - Step 06: Navigate to 'My Account' page
+[2022-06-16 10:08:02,505] Login - Step 07: Verify 'Customer Info' page is displayed
+[2022-06-16 10:08:02,571]  -------------------------- PASSED -------------------------- 
