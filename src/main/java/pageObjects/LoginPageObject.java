@@ -13,6 +13,10 @@ public class LoginPageObject extends BasePage {
 		this.driver = driver;
 	}
 
+	public String getLoginPageUrl() {
+		return getPageUrl(driver);
+	}
+
 	public void openLoginPage() {
 		openPageUrl(driver, GlobalConstants.LOGIN_PAGE_URL);
 	}
@@ -22,7 +26,7 @@ public class LoginPageObject extends BasePage {
 		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
 	}
 
-	public void openRegisterPage() {
+	public void clickToHereLink() {
 		waitForElementClickable(driver, LoginPageUI.REGISTER_LINK);
 		clickToElement(driver, LoginPageUI.REGISTER_LINK);
 	}

@@ -37,12 +37,6 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-testng</artifactId>
-			<version>${cucumber.version}</version>
-		</dependency>
-		
-		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>${selenium.version}</version>
@@ -51,7 +45,7 @@
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>5.0.2</version>
+			<version>4.4.3</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -59,6 +53,12 @@
     		<groupId>org.apache.logging.log4j</groupId>
     		<artifactId>log4j-core</artifactId>
     		<version>2.17.1</version>
+		</dependency>
+		
+		<dependency>
+    		<groupId>log4j</groupId>
+   		 	<artifactId>log4j</artifactId>
+    		<version>1.2.17</version>
 		</dependency>
 
 		<dependency>
@@ -95,8 +95,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.18.1</version>
 				<configuration>
+					<testFailureIgnore>true</testFailureIgnore>
 					<includes>
-						<include>**/*/CucumberTestRunner.java</include>
+						<include>**/*/TestRunner.java</include>
 					</includes>
 				</configuration>
 			</plugin>
@@ -105,7 +106,7 @@
 			<plugin>
 				<groupId>net.masterthought</groupId>
 				<artifactId>maven-cucumber-reporting</artifactId>
-				<version>3.10.0</version>
+				<version>3.20.0</version>
 				<executions>
 					<execution>
 						<id>execution</id>
@@ -114,11 +115,17 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>SELENIUM ONLINE - BANK GURU</projectName>
+							<projectName>BANK GURU CUCUMBER REPORT HTML</projectName>
+							<skip>true</skip>
 							<outputDirectory>${project.build.directory}/site/cucumber-reporting</outputDirectory>
-							<cucumberOutput>${project.build.directory}/site/cucumber.json</cucumberOutput>
+							<inputDirectory>${project.build.directory}/site</inputDirectory>
+                            <jsonFiles>
+                                <!-- supports wildcard or name pattern -->
+                                <param>**/*.json</param>
+                            </jsonFiles>
+							<!--<cucumberOutput>${project.build.directory}/site/cucumber.json</cucumberOutput>
 							<enableFlashCharts>true</enableFlashCharts>
-							<skippedFails>true</skippedFails>
+							<skippedFails>true</skippedFails> -->
 						</configuration>
 					</execution>
 				</executions>

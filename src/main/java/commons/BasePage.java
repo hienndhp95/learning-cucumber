@@ -19,8 +19,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import pageUIs.BasePageUI;
-
 /**
  * @author hiennd
  *
@@ -925,61 +923,6 @@ public class BasePage {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-	}
-
-	/**
-	 * @param driver
-	 * @param menuName
-	 */
-	public void openPagesAtSubMenuNavigationByName(WebDriver driver, String menuName) {
-		waitForElementClickable(driver, BasePageUI.DYNAMIC_AT_SUB_MENU_NAVAGATION, menuName);
-		clickToElement(driver, BasePageUI.DYNAMIC_AT_SUB_MENU_NAVAGATION, menuName);
-	}
-
-	/**
-	 * @param driver
-	 * @param fieldName
-	 */
-	public void moveToNextFieldByTabKey(WebDriver driver, String fieldName) {
-		switch (fieldName) {
-		case "Address":
-			pressKeyToElement(driver, BasePageUI.DYNAMIC_TEXTAREA, Keys.TAB, fieldName);
-			break;
-		default:
-			pressKeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX, Keys.TAB, fieldName);
-			break;
-		}
-	}
-
-	/**
-	 * @param driver
-	 * @param fieldName
-	 * @param errorMessage
-	 * @return
-	 */
-	public boolean isAnErrorMessageDisplayedAtFieldName(WebDriver driver, String fieldName, String errorMessage) {
-		waitForElementVisible(driver, BasePageUI.ERROR_MESSAGE, fieldName, errorMessage);
-		return isElementDisplayed(driver, BasePageUI.ERROR_MESSAGE, fieldName, errorMessage);
-	}
-
-	/**
-	 * @param driver
-	 * @param textboxName
-	 * @param value
-	 */
-	public void enterToDynamicTextboxByName(WebDriver driver, String textboxName, String value) {
-		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX, textboxName);
-		sendkeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX, value, textboxName);
-	}
-
-	/**
-	 * @param driver
-	 * @param textareaName
-	 * @param value
-	 */
-	public void enterToDynamicTextareaByName(WebDriver driver, String textareaName, String value) {
-		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTAREA, textareaName);
-		sendkeyToElement(driver, BasePageUI.DYNAMIC_TEXTAREA, value, textareaName);
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
