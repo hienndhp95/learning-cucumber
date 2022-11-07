@@ -51,11 +51,6 @@ public class CommonPageSteps {
 		commonPage.clickToDynamicButton(driver, buttonValue);
 	}
 
-	@When("^Close alert popup$")
-	public void closeAlertPopup() {
-		commonPage.closeAlertPopup();
-	}
-
 	@Then("^Success message displayed with \"([^\"]*)\"$")
 	public void successMessageDisplayedWith(String expectedMessage) {
 		Assert.assertTrue(commonPage.isAnSuccessMessageDisplayed(driver, expectedMessage));

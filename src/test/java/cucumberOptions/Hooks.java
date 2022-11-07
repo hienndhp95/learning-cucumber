@@ -50,16 +50,12 @@ public class Hooks {
 					WebDriverManager.chromedriver().setup();
 					ChromeOptions options = new ChromeOptions();
 					options.addExtensions(new File(GlobalConstants.PROJECT_PATH + File.separator + "extension" + File.separator + "AdBlock.crx"));
-					options.addArguments("--disable-popup-blocking");
-					DesiredCapabilities capabilities = new DesiredCapabilities();
-					capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-					driver = new ChromeDriver(capabilities);
+					driver = new ChromeDriver(options);
 					break;
 				case "hchrome":
 					WebDriverManager.chromedriver().setup();
 					ChromeOptions chromeOptions = new ChromeOptions();
 					chromeOptions.addArguments("headless");
-					chromeOptions.addArguments("window-size=1920x1080");
 					driver = new ChromeDriver(chromeOptions);
 					break;
 				case "firefox":
@@ -98,12 +94,11 @@ public class Hooks {
 			finally {
 				Runtime.getRuntime().addShutdownHook(new Thread(new BrowserCleanup()));
 			}
-
+			driver.manage().window().maximize();
 			driver.get(GlobalConstants.BANK_GURU_URL);
 			driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 			log.info("------------- Started the browser -------------");
 		}
-		driver.manage().window().maximize();
 		return driver;
 	}
 

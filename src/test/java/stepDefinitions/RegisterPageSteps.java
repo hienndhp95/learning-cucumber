@@ -14,11 +14,12 @@ public class RegisterPageSteps {
 	WebDriver driver;
 	RegisterPageObject registerPage;
 	DataHelper fakeData = DataHelper.getData();
-	static String username, password;
+	TestContext testContext;
 
 	// Constructor
-	public RegisterPageSteps() {
+	public RegisterPageSteps(TestContext testContext) {
 		this.driver = Hooks.openAndQuitBrowser();
+		this.testContext = testContext;
 		registerPage = PageGeneratorManager.getRegisterPage(driver);
 	}
 
@@ -34,13 +35,13 @@ public class RegisterPageSteps {
 
 	@Then("^Get User and password infor$")
 	public void getUserAndPasswordInfor() {
-		username = registerPage.getUsername();
-		password = registerPage.getPassword();
+		testContext.getDataContext().setContext(Context.USER_ID, registerPage.getUsername());
+		testContext.getDataContext().setContext(Context.PASSWORD, registerPage.getPassword());
 	}
 
 	@When("^Back to Login page$")
 	public void backToLoginPage() {
-		registerPage.openLoginPage(LoginPageSteps.loginPageUrl);
+		registerPage.openLoginPage(testContext.getDataContext().getContext(Context.LOGIN_URL));
 	}
 
 }

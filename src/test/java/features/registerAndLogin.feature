@@ -26,7 +26,6 @@ Feature: Register and Login and New Customer
     And Input to "E-mail" textbox with value "<Email>"
     And Input to "Password" textbox with value "<Password>"
     And Click to "Submit" button
-    #And Close alert popup
     Then Success message displayed with "Customer Registered Successfully!!!"
     And The valid text displayed at "Customer Name" with value "<CustomerName>"
     And The valid text displayed at "Gender" with value "<Gender>"
@@ -39,6 +38,6 @@ Feature: Register and Login and New Customer
     And The valid text displayed at "Email" with value "<Email>"
 
     Examples: 
-      | CustomerName  | DobIn      | DobOut     | Gender | Address     | City      | State | Pin    | Phone          | Email              | Password |
-      | Jack Wilshere | 09/13/1990 | 1990-09-13 | female   | Thuy Nguyen | Hai Phong | VN    | 123456 |  0981818181818 | abdctu2tưw22etwcsc@gmail.com   |    12345 |
-      | Jack Gealish  | 02/13/1997 | 1997-02-13 | female | ABCB        | London    | UK    | 123456 | 53251818181818 | utwe22ưt2wetwetw@gmail.com |    12345 |
+      | CustomerName  | DobIn      | DobOut     | Gender | Address     | City      | State | Pin    | Phone        | Email          | Password |
+      | Jack Wilshere | 09/13/1990 | 1990-09-13 | female | Thuy Nguyen | Hai Phong | VN    | 123456 | 098181818818 | generateEmail1 |    12345 |
+      | Jack Gealish  | 02/13/1997 | 1997-02-13 | female | highbury    | London    | UK    | 123456 | 098181818313 | generateEmail2 |    12345 |

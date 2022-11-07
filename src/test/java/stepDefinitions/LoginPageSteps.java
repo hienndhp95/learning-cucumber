@@ -13,17 +13,19 @@ public class LoginPageSteps {
 	WebDriver driver;
 	LoginPageObject loginPage;
 	CommonPageObject commonPage;
-	static String loginPageUrl;
+	// Share data
+	TestContext testContext;
 
-	public LoginPageSteps() {
+	public LoginPageSteps(TestContext testContext) {
 		this.driver = Hooks.openAndQuitBrowser();
+		this.testContext = testContext;
 		loginPage = PageGeneratorManager.getLoginPage(driver);
 		loginPage.closeBrowserTabExceptTitle(driver, "Guru99 Bank");
 	}
 
 	@Given("^Get login page Url$")
 	public void getLoginPageUrl() {
-		loginPageUrl = loginPage.getLoginPageUrl();
+		testContext.getDataContext().setContext(Context.LOGIN_URL, loginPage.getLoginPageUrl());
 	}
 
 	@When("^Open Register page$")
@@ -34,8 +36,8 @@ public class LoginPageSteps {
 	@When("^Submit valid infor to login form$")
 	public void submitValidInforToLoginForm() {
 		commonPage = PageGeneratorManager.getCommonPage(driver);
-		commonPage.inputToDynamicTextboxByName(driver, "UserID", RegisterPageSteps.username);
-		commonPage.inputToDynamicTextboxByName(driver, "Password", RegisterPageSteps.password);
+		commonPage.inputToDynamicTextboxByName(driver, "UserID", testContext.getDataContext().getContext(Context.USER_ID));
+		commonPage.inputToDynamicTextboxByName(driver, "Password", testContext.getDataContext().getContext(Context.PASSWORD));
 		loginPage = PageGeneratorManager.getLoginPage(driver);
 		loginPage.clickToLoginButton();
 	}

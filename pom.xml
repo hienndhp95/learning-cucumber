@@ -68,6 +68,14 @@
 		</dependency>
 		
 		<dependency>
+    		<groupId>info.cukes</groupId>
+   			<artifactId>cucumber-picocontainer</artifactId>
+    		<version>${cucumber.version}</version>
+ 			<scope>test</scope>
+		</dependency>
+
+		
+		<dependency>
 			<groupId>com.github.javafaker</groupId>
 			<artifactId>javafaker</artifactId>
 			<version>1.0.2</version>
